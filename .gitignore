@@ -1,5 +1,22 @@
-# Ignore Gradle project-specific cache directory
-.gradle
-.vscode
-# Ignore Gradle build output directory
-build
+
+
+bin/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+
+.idea/
+*.iml
+files.txt
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Other
+*.tmp
+*.lock
+>>>>>>> 5394e2f (Added InjectPatchStrategy implementation.)

@@ -2,6 +2,7 @@ package me.dragon.hotfix.core;
 
 import me.dragon.hotfix.core.enums.ClassEnum;
 import me.dragon.hotfix.core.enums.TargetType;
+import me.dragon.hotfix.core.helpers.PatchBuilder;
 import me.dragon.hotfix.core.listeners.ReplacePatchStrategy;
 import me.dragon.hotfix.core.listeners.UniversalPatchStrategy;
 

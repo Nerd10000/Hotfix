@@ -1,4 +1,4 @@
-package me.dragon.hotfix.core;
+package me.dragon.hotfix.core.helpers;
 
 public class ParameterAccessor {
     private String functionName;

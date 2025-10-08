@@ -1,9 +1,8 @@
-package me.dragon.hotfix.core;
+package me.dragon.hotfix.core.helpers;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 
-import org.apache.commons.math3.util.Pair;
 
 public class NmsContext {
     private Class<?> clazz;

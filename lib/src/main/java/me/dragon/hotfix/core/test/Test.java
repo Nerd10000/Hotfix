@@ -7,7 +7,7 @@ import net.bytebuddy.dynamic.loading.ClassReloadingStrategy;
 import net.bytebuddy.implementation.bind.annotation.RuntimeType;
 
 public class Test  implements ReplacePatchStrategy{
-
+    
     @Override
     
     public boolean apply(PatchDescription patch, Class<?> targetClass, ByteBuddy byteBuddy,
