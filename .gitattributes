@@ -1,12 +1,17 @@
-#
-# https://help.github.com/articles/dealing-with-line-endings/
-#
-# Linux start script should use lf
-/gradlew        text eol=lf
+# Ignore examples and documentation from language stats
+examples/* linguist-vendored
+images/* linguist-vendored
+*.txt linguist-vendored
+*.md linguist-vendored
 
-# These are Windows script files and should use crlf
-*.bat           text eol=crlf
+# Ignore Gradle/IDE files from language stats
+.gradle/* linguist-vendored
+*.properties linguist-vendored
+*.gradle* linguist-vendored
+*.kts linguist-vendored
+*.bat linguist-vendored
+*.cmd linguist-vendored
+*.jar linguist-vendored
 
-# Binary files should be left untouched
-*.jar           binary
-
+# Ignore VSCode settings
+.vscode/* linguist-vendored

@@ -1,22 +1,33 @@
+# Build outputs
+/bin/
+/out/
+/build/
+/lib/bin/
+/lib/build/
+/examples/app/build/
 
-
-bin/
-out/
+# Gradle
+.gradle/
+gradle-app.setting
 !gradle/wrapper/gradle-wrapper.jar
 
-# IDE
-
+# IDEs
 .idea/
 *.iml
-files.txt
-# OS
+*.ipr
+*.iws
+.vscode/
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# Other
+# Temporary / lock files
 *.tmp
 *.lock
->>>>>>> 5394e2f (Added InjectPatchStrategy implementation.)
+
+# Misc
+files.txt
